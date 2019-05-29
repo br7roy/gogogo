@@ -26,10 +26,10 @@ func main() {
 
 	*/
 	var a int = 32 /*声明实际变量*/
-	var ip *int    /*生命指针变量*/
+	var ip *int    /*声明指针变量*/
 
 	ip = &a /*指针变量的存储地址*/
-	fmt.Printf("a变量的地址：%x\n", &ip)
+	fmt.Printf("a变量的地址：%x\n", &a)
 
 	/*指针变量的存储地址*/
 	fmt.Printf("指针变量的存储地址：%x\n", ip)
